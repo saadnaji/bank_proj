@@ -1,0 +1,1384 @@
+kernel	KL_ANY_ROUTINES	same_types	F860_6950	C1/kl860.c
+kernel	KL_ANY_ROUTINES	same_objects	F860_6951	C1/kl860.c
+kernel	KL_ANY_ROUTINES	equal_objects	F860_6952	C1/kl860.c
+kernel	KL_ANY_ROUTINES	to_any	F860_6953	C1/kl860.c
+kernel	KL_STANDARD_FILES	input	F861_6954	C1/kl861.c
+kernel	KL_STANDARD_FILES	output	F861_6955	C1/kl861.c
+kernel	KL_STANDARD_FILES	error	F861_6956	C1/kl861.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	make	F986_6957	C4/kl986.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	make_filled	F986_6958	C4/kl986.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	make_from_array	F986_6959	C4/kl986.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	to_special	F986_6960	C4/kl986.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	has	F986_6961	C4/kl986.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	force	F986_6962	C4/kl986.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	keep_head	F986_6963	C4/kl986.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	resize	F986_6964	C4/kl986.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	aliased_resized_area	F986_6965	C4/kl986.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	aliased_resized_area_with_default	F986_6966	C4/kl986.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	make	F990_6957	C4/kl990.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	make_filled	F990_6958	C4/kl990.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	make_from_array	F990_6959	C4/kl990.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	to_special	F990_6960	C4/kl990.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	has	F990_6961	C4/kl990.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	force	F990_6962	C4/kl990.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	keep_head	F990_6963	C4/kl990.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	resize	F990_6964	C4/kl990.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	aliased_resized_area	F990_6965	C4/kl990.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	aliased_resized_area_with_default	F990_6966	C4/kl990.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	make	F997_6957	C5/kl997.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	make_filled	F997_6958	C5/kl997.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	make_from_array	F997_6959	C5/kl997.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	to_special	F997_6960	C5/kl997.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	has	F997_6961	C5/kl997.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	force	F997_6962	C5/kl997.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	keep_head	F997_6963	C5/kl997.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	resize	F997_6964	C5/kl997.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	aliased_resized_area	F997_6965	C5/kl997.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	aliased_resized_area_with_default	F997_6966	C5/kl997.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	make	F998_6957	C5/kl998.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	make_filled	F998_6958	C5/kl998.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	make_from_array	F998_6959	C5/kl998.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	to_special	F998_6960	C5/kl998.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	has	F998_6961	C5/kl998.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	force	F998_6962	C5/kl998.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	keep_head	F998_6963	C5/kl998.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	resize	F998_6964	C5/kl998.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	aliased_resized_area	F998_6965	C5/kl998.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	aliased_resized_area_with_default	F998_6966	C5/kl998.c
+kernel	KL_SPECIAL_ROUTINES [REAL_32]	make	F1005_6957	C5/kl1005.c
+kernel	KL_SPECIAL_ROUTINES [REAL_32]	make_filled	F1005_6958	C5/kl1005.c
+kernel	KL_SPECIAL_ROUTINES [REAL_32]	make_from_array	F1005_6959	C5/kl1005.c
+kernel	KL_SPECIAL_ROUTINES [REAL_32]	to_special	F1005_6960	C5/kl1005.c
+kernel	KL_SPECIAL_ROUTINES [REAL_32]	has	F1005_6961	C5/kl1005.c
+kernel	KL_SPECIAL_ROUTINES [REAL_32]	force	F1005_6962	C5/kl1005.c
+kernel	KL_SPECIAL_ROUTINES [REAL_32]	keep_head	F1005_6963	C5/kl1005.c
+kernel	KL_SPECIAL_ROUTINES [REAL_32]	resize	F1005_6964	C5/kl1005.c
+kernel	KL_SPECIAL_ROUTINES [REAL_32]	aliased_resized_area	F1005_6965	C5/kl1005.c
+kernel	KL_SPECIAL_ROUTINES [REAL_32]	aliased_resized_area_with_default	F1005_6966	C5/kl1005.c
+utilities	EVENT [G#1]	default_create	F989_6967	C4/ev989.c
+utilities	EVENT [G#1]	actions	F989_6968	C4/ev989.c
+utilities	EVENT [G#1]	has	F989_6969	C4/ev989.c
+utilities	EVENT [G#1]	attach	F989_6970	C4/ev989.c
+utilities	EVENT [G#1]	notify	F989_6971	C4/ev989.c
+utilities	EVENT [G#1]	execute	F989_6972	C4/ev989.c
+bank	MODEL	make	F862_6973	C1/mo862.c
+bank	MODEL	s	F862_6974	C1/mo862.c
+bank	MODEL	out	F862_6975	C1/mo862.c
+bank	MODEL_ACCESS	m	F863_6976	C1/mo863.c
+bank	reference MODEL_ACCESS	m	F864_6976	C1/mo864.c
+utilities	FILE_UTILITY	error	F865_6977	C1/fi865.c
+utilities	FILE_UTILITY	error_string	F865_6978	C1/fi865.c
+utilities	FILE_UTILITY	item	F865_6979	C1/fi865.c
+utilities	FILE_UTILITY	read_text_from	F865_6980	C1/fi865.c
+kernel	KI_OUTPUT_STREAM [CHARACTER_8]	append	F1008_6982	C5/ki1008.c
+kernel	KI_OUTPUT_STREAM [CHARACTER_8]	is_closable	F1008_6984	C5/ki1008.c
+kernel	KI_OUTPUT_STREAM [CHARACTER_8]	close	F1008_6986	C5/ki1008.c
+kernel	UC_SHARED_STRING_EQUALITY_TESTER	string_equality_tester	F866_6987	C1/uc866.c
+kernel	KL_SHARED_STRING_EQUALITY_TESTER	string_equality_tester	F867_6988	C1/kl867.c
+kernel	KL_SHARED_STRING_EQUALITY_TESTER	case_insensitive_string_equality_tester	F867_6989	C1/kl867.c
+kernel	UC_IMPORTED_UTF8_ROUTINES	utf8	F868_6990	C1/uc868.c
+kernel	KI_PLATFORM	byte_bits	F869_6992	C1/ki869.c
+kernel	KI_PLATFORM	byte_bytes	F869_6999	C1/ki869.c
+kernel	KI_PLATFORM	minimum_byte_code	F869_7005	C1/ki869.c
+kernel	KI_PLATFORM	maximum_byte_code	F869_7006	C1/ki869.c
+kernel	KL_IMPORTED_CHARACTER_ROUTINES	character_	F870_7011	C1/kl870.c
+kernel	KL_SHARED_OPERATING_SYSTEM	operating_system	F871_7012	C1/kl871.c
+kernel	KL_SHARED_PLATFORM	platform	F873_7013	C1/kl873.c
+kernel	KL_CHARACTER_ROUTINES	is_digit	F874_7014	C1/kl874.c
+kernel	KL_CHARACTER_ROUTINES	is_hex_digit	F874_7015	C1/kl874.c
+kernel	KL_CHARACTER_ROUTINES	next	F874_7016	C1/kl874.c
+kernel	KL_CHARACTER_ROUTINES	previous	F874_7017	C1/kl874.c
+kernel	KL_CHARACTER_ROUTINES	as_lower	F874_7018	C1/kl874.c
+kernel	KL_CHARACTER_ROUTINES	as_upper	F874_7019	C1/kl874.c
+kernel	UC_UNICODE_CONSTANTS	minimum_unicode_character_code	F875_7020	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	maximum_unicode_character_code	F875_7021	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	minimum_unicode_surrogate_code	F875_7022	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	maximum_unicode_surrogate_code	F875_7023	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	maximum_bmp_character_code	F875_7024	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	minimum_ascii_character_code	F875_7025	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	maximum_ascii_character_code	F875_7026	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	minimum_ascii_character	F875_7027	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	maximum_ascii_character	F875_7028	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	unassigned_other_category	F875_7029	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	uppercase_letter_category	F875_7030	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	lowercase_letter_category	F875_7031	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	titlecase_letter_category	F875_7032	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	modifier_letter_category	F875_7033	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	other_letter_category	F875_7034	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	non_spacing_mark_category	F875_7035	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	spacing_combining_mark_category	F875_7036	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	enclosing_mark_category	F875_7037	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	decimal_digit_number_category	F875_7038	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	letter_number_category	F875_7039	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	other_number_category	F875_7040	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	connector_punctuation_category	F875_7041	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	dash_punctuation_category	F875_7042	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	open_punctuation_category	F875_7043	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	close_punctuation_category	F875_7044	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	initial_quote_punctuation_category	F875_7045	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	final_quote_punctuation_category	F875_7046	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	other_punctuation_category	F875_7047	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	math_symbol_category	F875_7048	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	currency_symbol_category	F875_7049	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	modifier_symbol_category	F875_7050	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	other_symbol_category	F875_7051	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	space_separator_category	F875_7052	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	line_separator_category	F875_7053	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	paragraph_separator_category	F875_7054	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	control_other_category	F875_7055	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	format_other_category	F875_7056	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	surrogate_other_category	F875_7057	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	private_other_category	F875_7058	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	canonical_decomposition_mapping	F875_7059	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	font_decomposition_mapping	F875_7060	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	no_break_decomposition_mapping	F875_7061	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	initial_decomposition_mapping	F875_7062	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	medial_decomposition_mapping	F875_7063	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	final_decomposition_mapping	F875_7064	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	isolated_decomposition_mapping	F875_7065	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	encircled_decomposition_mapping	F875_7066	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	superscript_decomposition_mapping	F875_7067	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	subscript_decomposition_mapping	F875_7068	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	vertical_decomposition_mapping	F875_7069	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	wide_decomposition_mapping	F875_7070	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	narrow_decomposition_mapping	F875_7071	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	small_decomposition_mapping	F875_7072	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	square_decomposition_mapping	F875_7073	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	fraction_decomposition_mapping	F875_7074	C1/uc875.c
+kernel	UC_UNICODE_CONSTANTS	compatibility_decomposition_mapping	F875_7075	C1/uc875.c
+kernel	KL_CELL [G#1]	item	F996_7076	C5/kl996.c
+kernel	KL_CELL [G#1]	put	F996_7077	C5/kl996.c
+kernel	KL_CELL [G#1]	make	F996_7078	C5/kl996.c
+kernel	KL_CELL [CHARACTER_8]	item	F1002_7076	C5/kl1002.c
+kernel	KL_CELL [CHARACTER_8]	put	F1002_7077	C5/kl1002.c
+kernel	KL_CELL [CHARACTER_8]	make	F1002_7078	C5/kl1002.c
+kernel	KL_LINKABLE [G#1]	right	F995_7079	C5/kl995.c
+kernel	KL_LINKABLE [G#1]	put_right	F995_7080	C5/kl995.c
+kernel	KL_LINKABLE [G#1]	forget_right	F995_7081	C5/kl995.c
+kernel	KL_LINKABLE [CHARACTER_8]	right	F1001_7079	C5/kl1001.c
+kernel	KL_LINKABLE [CHARACTER_8]	put_right	F1001_7080	C5/kl1001.c
+kernel	KL_LINKABLE [CHARACTER_8]	forget_right	F1001_7081	C5/kl1001.c
+kernel	KI_BUFFER [CHARACTER_8]	fill_from_stream	F1003_7085	C5/ki1003.c
+kernel	KI_BUFFER [CHARACTER_8]	move_left	F1003_7086	C5/ki1003.c
+kernel	KI_BUFFER [CHARACTER_8]	move_right	F1003_7087	C5/ki1003.c
+kernel	KI_BUFFER [G#1]	fill_from_stream	F1010_7085	C5/ki1010.c
+kernel	KI_BUFFER [G#1]	move_left	F1010_7086	C5/ki1010.c
+kernel	KI_BUFFER [G#1]	move_right	F1010_7087	C5/ki1010.c
+parse	YY_PARSER	clear_all	F876_7096	C1/yy876.c
+lexical	YY_BUFFER	make	F877_7105	C1/yy877.c
+lexical	YY_BUFFER	make_from_buffer	F877_7106	C1/yy877.c
+lexical	YY_BUFFER	name	F877_7107	C1/yy877.c
+lexical	YY_BUFFER	content	F877_7108	C1/yy877.c
+lexical	YY_BUFFER	count	F877_7109	C1/yy877.c
+lexical	YY_BUFFER	capacity	F877_7110	C1/yy877.c
+lexical	YY_BUFFER	position	F877_7111	C1/yy877.c
+lexical	YY_BUFFER	line	F877_7112	C1/yy877.c
+lexical	YY_BUFFER	column	F877_7113	C1/yy877.c
+lexical	YY_BUFFER	index	F877_7114	C1/yy877.c
+lexical	YY_BUFFER	beginning_of_line	F877_7115	C1/yy877.c
+lexical	YY_BUFFER	set_position	F877_7116	C1/yy877.c
+lexical	YY_BUFFER	set_index	F877_7117	C1/yy877.c
+lexical	YY_BUFFER	set_beginning_of_line	F877_7118	C1/yy877.c
+lexical	YY_BUFFER	filled	F877_7119	C1/yy877.c
+lexical	YY_BUFFER	interactive	F877_7120	C1/yy877.c
+lexical	YY_BUFFER	set_interactive	F877_7121	C1/yy877.c
+lexical	YY_BUFFER	fill	F877_7122	C1/yy877.c
+lexical	YY_BUFFER	flush	F877_7123	C1/yy877.c
+lexical	YY_BUFFER	wipe_out	F877_7124	C1/yy877.c
+lexical	YY_BUFFER	compact_left	F877_7125	C1/yy877.c
+lexical	YY_BUFFER	compact_right	F877_7126	C1/yy877.c
+lexical	YY_BUFFER	new_default_buffer	F877_7127	C1/yy877.c
+lexical	YY_BUFFER	resize	F877_7128	C1/yy877.c
+lexical	YY_BUFFER	default_capacity	F877_7129	C1/yy877.c
+lexical	YY_BUFFER	end_of_buffer_character	F877_7130	C1/yy877.c
+lexical	YY_BUFFER	name_constant	F877_7131	C1/yy877.c
+lexical	YY_FILE_BUFFER	make	F878_7132	C1/yy878.c
+lexical	YY_FILE_BUFFER	make_with_size	F878_7133	C1/yy878.c
+lexical	YY_FILE_BUFFER	name	F878_7134	C1/yy878.c
+lexical	YY_FILE_BUFFER	file	F878_7135	C1/yy878.c
+lexical	YY_FILE_BUFFER	end_of_file	F878_7136	C1/yy878.c
+lexical	YY_FILE_BUFFER	set_file	F878_7137	C1/yy878.c
+lexical	YY_FILE_BUFFER	set_end_of_file	F878_7138	C1/yy878.c
+lexical	YY_FILE_BUFFER	fill	F878_7139	C1/yy878.c
+lexical	YY_FILE_BUFFER	wipe_out	F878_7140	C1/yy878.c
+lexical	YY_FILE_BUFFER	read_buffer_capacity	F878_7141	C1/yy878.c
+generated_code	COMMAND_INTERFACE	make	F879_7142	C1/co879.c
+generated_code	COMMAND_INTERFACE	message	F879_7143	C1/co879.c
+generated_code	COMMAND_INTERFACE	container	F879_7144	C1/co879.c
+generated_code	COMMAND_INTERFACE	routine	F879_7145	C1/co879.c
+generated_code	COMMAND_INTERFACE	name	F879_7146	C1/co879.c
+generated_code	COMMAND_INTERFACE	out	F879_7147	C1/co879.c
+generated_code	COMMAND_INTERFACE	error	F879_7148	C1/co879.c
+generated_code	COMMAND_INTERFACE	debug_output	F879_7149	C1/co879.c
+generated_code	COMMAND_INTERFACE	array_arg_out	F879_7150	C1/co879.c
+generated_code	COMMAND_INTERFACE	tuple_arg_out	F879_7151	C1/co879.c
+generated_code	COMMAND_INTERFACE	quote	F879_7152	C1/co879.c
+bank	COMMAND	make	F880_7153	C1/co880.c
+generated_code	DUMMY	make	F881_7154	C1/du881.c
+generated_code	DUMMY	dummy	F881_7155	C1/du881.c
+generated_code	WITHDRAW_INTERFACE	make	F882_7156	C1/wi882.c
+bank	WITHDRAW	withdraw	F883_7158	C1/wi883.c
+generated_code	DEPOSIT_INTERFACE	make	F884_7159	C1/de884.c
+bank	DEPOSIT	deposit	F885_7161	C1/de885.c
+generated_code	NEW_INTERFACE	make	F886_7162	C1/ne886.c
+bank	NEW	new	F887_7164	C1/ne887.c
+generated_code	TRANSFER_INTERFACE	make	F888_7165	C1/tr888.c
+bank	TRANSFER	transfer	F889_7167	C1/tr889.c
+generated_code	OUTPUT_HANDLER_INTERFACE	make	F890_7168	C1/ou890.c
+generated_code	OUTPUT_HANDLER_INTERFACE	output	F890_7169	C1/ou890.c
+generated_code	OUTPUT_HANDLER_INTERFACE	error_message	F890_7171	C1/ou890.c
+generated_code	OUTPUT_HANDLER_INTERFACE	log_initial_state	F890_7172	C1/ou890.c
+generated_code	OUTPUT_HANDLER_INTERFACE	log_command	F890_7173	C1/ou890.c
+generated_code	OUTPUT_HANDLER_INTERFACE	log_error	F890_7174	C1/ou890.c
+bank	OUTPUT_HANDLER	make	F891_7175	C1/ou891.c
+bank	OUTPUT_HANDLER	model	F891_7176	C1/ou891.c
+bank	OUTPUT_HANDLER	model_state	F891_7177	C1/ou891.c
+bank	OUTPUT_HANDLER	initial_state	F891_7178	C1/ou891.c
+bank	OUTPUT_HANDLER	log_command	F891_7179	C1/ou891.c
+generated_code	INPUT_HANDLER_INTERFACE	make_without_running	F892_7180	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	make	F892_7181	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	evt_out	F892_7182	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	error	F892_7183	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	input_string	F892_7184	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	abstract_ui	F892_7185	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	on_error	F892_7186	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	input_cmds_syntax_err_msg	F892_7187	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	input_cmds_type_err_msg	F892_7188	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	parse_and_validate_input_string	F892_7189	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	evt_to_cmd	F892_7190	C2/in892.c
+generated_code	INPUT_HANDLER_INTERFACE	find_invalid_evt_trace	F892_7191	C2/in892.c
+generated_code	ABSTRACT_UI_INTERFACE	make	F894_7192	C2/ab894.c
+generated_code	ABSTRACT_UI_INTERFACE	commands	F894_7193	C2/ab894.c
+generated_code	ABSTRACT_UI_INTERFACE	on_change	F894_7194	C2/ab894.c
+generated_code	ABSTRACT_UI_INTERFACE	put	F894_7195	C2/ab894.c
+generated_code	ABSTRACT_UI_INTERFACE	run_input_commands	F894_7196	C2/ab894.c
+generated_code	SOFTWARE_OPERATION_INTERFACE	make	F896_7197	C2/so896.c
+generated_code	SOFTWARE_OPERATION_INTERFACE	initialize_attributes	F896_7198	C2/so896.c
+generated_code	SOFTWARE_OPERATION_INTERFACE	ui	F896_7199	C2/so896.c
+generated_code	SOFTWARE_OPERATION_INTERFACE	input	F896_7200	C2/so896.c
+generated_code	SOFTWARE_OPERATION_INTERFACE	output	F896_7201	C2/so896.c
+generated_code	SOFTWARE_OPERATION_INTERFACE	dummy_command	F896_7202	C2/so896.c
+generated_code	SOFTWARE_OPERATION_INTERFACE	error	F896_7203	C2/so896.c
+generated_code	SOFTWARE_OPERATION_INTERFACE	execute	F896_7204	C2/so896.c
+kernel	UC_IMPORTED_UTF32_ROUTINES	utf32	F899_7205	C2/uc899.c
+kernel	UC_IMPORTED_UTF16_ROUTINES	utf16	F900_7206	C2/uc900.c
+kernel	KI_FILE_SYSTEM_ENTRY	reset	F901_7208	C2/ki901.c
+kernel	KI_FILE_SYSTEM_ENTRY	is_closable	F901_7214	C2/ki901.c
+kernel	KI_INPUT_STREAM [CHARACTER_8]	read_to_buffer	F1004_7227	C5/ki1004.c
+kernel	KI_INPUT_STREAM [CHARACTER_8]	is_closable	F1004_7228	C5/ki1004.c
+kernel	KI_INPUT_STREAM [CHARACTER_8]	is_rewindable	F1004_7230	C5/ki1004.c
+kernel	KI_INPUT_STREAM [CHARACTER_8]	close	F1004_7235	C5/ki1004.c
+kernel	KI_INPUT_STREAM [CHARACTER_8]	rewind	F1004_7236	C5/ki1004.c
+kernel	KI_INPUT_STREAM [G#1]	read_to_buffer	F1011_7227	C5/ki1011.c
+kernel	KI_INPUT_STREAM [G#1]	is_closable	F1011_7228	C5/ki1011.c
+kernel	KI_INPUT_STREAM [G#1]	is_rewindable	F1011_7230	C5/ki1011.c
+kernel	KI_INPUT_STREAM [G#1]	close	F1011_7235	C5/ki1011.c
+kernel	KI_INPUT_STREAM [G#1]	rewind	F1011_7236	C5/ki1011.c
+kernel	KL_IMPORTED_SPECIAL_ROUTINES	special_any_	F903_7237	C2/kl903.c
+kernel	KL_IMPORTED_SPECIAL_ROUTINES	special_boolean_	F903_7238	C2/kl903.c
+kernel	KL_IMPORTED_SPECIAL_ROUTINES	special_character_	F903_7239	C2/kl903.c
+kernel	KL_IMPORTED_SPECIAL_ROUTINES	special_integer_	F903_7240	C2/kl903.c
+kernel	KL_IMPORTED_SPECIAL_ROUTINES	special_string_	F903_7241	C2/kl903.c
+kernel	KL_SHARED_STANDARD_FILES	std	F904_7242	C2/kl904.c
+utilities	COMPOSITE_ARG	value	F906_7243	C2/co906.c
+utilities	ARRAY_ARG	make	F907_7244	C2/ar907.c
+utilities	ARRAY_ARG	out	F907_7245	C2/ar907.c
+utilities	ARRAY_ARG	to_bool_val_array	F907_7246	C2/ar907.c
+utilities	ARRAY_ARG	to_char_val_array	F907_7247	C2/ar907.c
+utilities	ARRAY_ARG	to_int_val_array	F907_7248	C2/ar907.c
+utilities	ARRAY_ARG	to_real_val_array	F907_7249	C2/ar907.c
+utilities	ARRAY_ARG	to_str_val_array	F907_7250	C2/ar907.c
+utilities	TUPLE_ARG	make	F909_7251	C2/tu909.c
+utilities	TUPLE_ARG	value	F909_7252	C2/tu909.c
+utilities	TUPLE_ARG	out	F909_7253	C2/tu909.c
+kernel	KL_EQUALITY_TESTER [G#1]	test	F1012_7254	C5/kl1012.c
+kernel	KL_STRING_EQUALITY_TESTER	test	F911_7255	C2/kl911.c
+kernel	KL_OPERATING_SYSTEM	is_windows	F912_7256	C2/kl912.c
+kernel	KL_OPERATING_SYSTEM	is_unix	F912_7257	C2/kl912.c
+kernel	KL_OPERATING_SYSTEM	is_dotnet	F912_7258	C2/kl912.c
+kernel	KL_OPERATING_SYSTEM	current_working_directory	F912_7259	C2/kl912.c
+kernel	KL_OPERATING_SYSTEM	variable_value	F912_7260	C2/kl912.c
+kernel	KL_OPERATING_SYSTEM	execution_environment	F912_7261	C2/kl912.c
+kernel	KL_PLATFORM	boolean_bits	F913_7262	C2/kl913.c
+kernel	KL_PLATFORM	character_bits	F913_7263	C2/kl913.c
+kernel	KL_PLATFORM	double_bits	F913_7264	C2/kl913.c
+kernel	KL_PLATFORM	integer_bits	F913_7265	C2/kl913.c
+kernel	KL_PLATFORM	pointer_bits	F913_7266	C2/kl913.c
+kernel	KL_PLATFORM	real_bits	F913_7267	C2/kl913.c
+kernel	KL_PLATFORM	boolean_bytes	F913_7268	C2/kl913.c
+kernel	KL_PLATFORM	character_bytes	F913_7269	C2/kl913.c
+kernel	KL_PLATFORM	double_bytes	F913_7270	C2/kl913.c
+kernel	KL_PLATFORM	integer_bytes	F913_7271	C2/kl913.c
+kernel	KL_PLATFORM	pointer_bytes	F913_7272	C2/kl913.c
+kernel	KL_PLATFORM	real_bytes	F913_7273	C2/kl913.c
+kernel	KL_PLATFORM	minimum_character_code	F913_7274	C2/kl913.c
+kernel	KL_PLATFORM	maximum_character_code	F913_7275	C2/kl913.c
+kernel	KL_PLATFORM	minimum_integer	F913_7276	C2/kl913.c
+kernel	KL_PLATFORM	maximum_integer	F913_7277	C2/kl913.c
+kernel	KL_PLATFORM	minimum_integer_64	F913_7278	C2/kl913.c
+kernel	KL_PLATFORM	maximum_integer_64	F913_7279	C2/kl913.c
+kernel	UC_IMPORTED_UNICODE_ROUTINES	unicode	F914_7280	C2/uc914.c
+root	ROOT_INTERFACE	debug_mode	F915_7281	C2/ro915.c
+root	ROOT_INTERFACE	make	F915_7282	C2/ro915.c
+root	ROOT_INTERFACE	wrong_defns_file_chosen_msg	F915_7283	C2/ro915.c
+root	ROOT_INTERFACE	ref_msg	F915_7284	C2/ro915.c
+root	ROOT_INTERFACE	invalid_flag_msg_or_num_args	F915_7285	C2/ro915.c
+root	ROOT_INTERFACE	usage_msg	F915_7286	C2/ro915.c
+root	ROOT_INTERFACE	wrong_num_args_msg	F915_7287	C2/ro915.c
+root	ROOT_INTERFACE	is_init	F915_7288	C2/ro915.c
+root	ROOT_INTERFACE	interactive_mode	F915_7289	C2/ro915.c
+root	ROOT_INTERFACE	batch_mode	F915_7290	C2/ro915.c
+root	ROOT_INTERFACE	exec_log	F915_7291	C2/ro915.c
+root	ROOT_INTERFACE	handle_interactive_mode	F915_7292	C2/ro915.c
+root	ROOT_INTERFACE	handle_batch_mode	F915_7293	C2/ro915.c
+root	ROOT_INTERFACE	exec	F915_7294	C2/ro915.c
+root	ROOT_INTERFACE	man_page	F915_7295	C2/ro915.c
+kernel	KL_ARRAY [G#1]	new_rebase	F988_7296	C4/kl988.c
+kernel	KL_ARRAY [INTEGER_32]	new_rebase	F992_7296	C5/kl992.c
+kernel	KL_ARRAY [BOOLEAN]	new_rebase	F994_7296	C5/kl994.c
+kernel	KL_ARRAY [CHARACTER_8]	new_rebase	F1000_7296	C5/kl1000.c
+kernel	KL_ARRAY [REAL_32]	new_rebase	F1007_7296	C5/kl1007.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	any_array_	F917_7297	C2/kl917.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	integer_array_	F917_7298	C2/kl917.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	boolean_array_	F917_7299	C2/kl917.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	string_array_	F917_7300	C2/kl917.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	string_array_routines	F917_7301	C2/kl917.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	detachable_string_array_routines	F917_7302	C2/kl917.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	array_special_integer_	F917_7303	C2/kl917.c
+kernel	KI_DIRECTORY	valid_unread_entry	F918_7308	C2/ki918.c
+kernel	KL_IMPORTED_INTEGER_ROUTINES	integer_	F919_7319	C2/kl919.c
+kernel	KL_IMPORTED_STRING_ROUTINES	string_	F920_7320	C2/kl920.c
+kernel	UC_STRING_EQUALITY_TESTER	test	F921_7321	C2/uc921.c
+kernel	KL_CASE_INSENSITIVE_STRING_EQUALITY_TESTER	test	F922_7322	C2/kl922.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_substring	F923_7324	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_integer	F923_7325	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_integer_8	F923_7326	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_integer_16	F923_7327	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_integer_32	F923_7328	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_integer_64	F923_7329	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_natural_8	F923_7330	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_natural_16	F923_7331	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_natural_32	F923_7332	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_natural_64	F923_7333	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_boolean	F923_7334	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	append	F923_7335	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	true_constant	F923_7337	C2/ki923.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	false_constant	F923_7338	C2/ki923.c
+kernel	KI_TEXT_OUTPUT_STREAM	put_line	F926_7342	C3/ki926.c
+kernel	KI_TEXT_OUTPUT_STREAM	put_new_line	F926_7343	C3/ki926.c
+kernel	KL_IMPORTED_ANY_ROUTINES	any_	F928_7345	C3/kl928.c
+kernel	UC_UTF8_ROUTINES	valid_utf8	F929_7346	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	is_encoded_first_byte	F929_7347	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	is_encoded_next_byte	F929_7348	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	is_encoded_second_byte	F929_7349	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	is_endian_detection_character	F929_7350	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	is_endian_detection_character_start	F929_7351	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	encoded_first_value	F929_7352	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	encoded_next_value	F929_7353	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	encoded_byte_count	F929_7354	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	substring_byte_count	F929_7355	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_byte_count	F929_7356	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	character_byte_count	F929_7357	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	to_utf8	F929_7358	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	append_code_to_utf8	F929_7359	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_3	F929_7360	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_7	F929_7361	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_15	F929_7362	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_31	F929_7363	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_127	F929_7364	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_127	F929_7365	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_143	F929_7366	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_159	F929_7367	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_191	F929_7368	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_191	F929_7369	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_194	F929_7370	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_223	F929_7371	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_223	F929_7372	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_224	F929_7373	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_237	F929_7374	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_239	F929_7375	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_239	F929_7376	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_240	F929_7377	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_244	F929_7378	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_247	F929_7379	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_247	F929_7380	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_251	F929_7381	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_251	F929_7382	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_253	F929_7383	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	code_253	F929_7384	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_255	F929_7385	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_ef	F929_7386	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_bb	F929_7387	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	byte_bf	F929_7388	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	dummy_string	F929_7389	C3/uc929.c
+kernel	UC_UTF8_ROUTINES	dummy_uc_string	F929_7390	C3/uc929.c
+kernel	UC_UTF32_ROUTINES	valid_utf32	F930_7391	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	bom_be	F930_7392	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	bom_le	F930_7393	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	is_endian_detection_character_most_first	F930_7394	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	is_endian_detection_character_least_first	F930_7395	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	is_byte	F930_7396	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	code	F930_7397	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	hex_100	F930_7398	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	hex_fe	F930_7399	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	hex_ff	F930_7400	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	two_byte_offset	F930_7401	C3/uc930.c
+kernel	UC_UTF32_ROUTINES	three_byte_offset	F930_7402	C3/uc930.c
+kernel	UC_UTF16_ROUTINES	valid_utf16	F931_7403	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	valid_utf16be	F931_7404	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	valid_utf16le	F931_7405	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	bom_be	F931_7406	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	bom_le	F931_7407	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	is_endian_detection_character_most_first	F931_7408	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	is_endian_detection_character_least_first	F931_7409	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	is_endian_detection_character	F931_7410	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	is_surrogate	F931_7411	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	is_high_surrogate	F931_7412	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	is_low_surrogate	F931_7413	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	least_10_bits	F931_7414	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	surrogate	F931_7415	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	surrogate_from_bytes	F931_7416	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	is_byte	F931_7417	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	supplementary_to_high_surrogate	F931_7418	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	supplementary_to_low_surrogate	F931_7419	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_400	F931_7420	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_100	F931_7421	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_fe	F931_7422	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_ff	F931_7423	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_d8	F931_7424	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_dc	F931_7425	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_e0	F931_7426	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_10000	F931_7427	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_d7c0	F931_7428	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_3ff	F931_7429	C3/uc931.c
+kernel	UC_UTF16_ROUTINES	hex_dc00	F931_7430	C3/uc931.c
+kernel	KL_INTEGER_ROUTINES	to_character	F932_7431	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	to_hexadecimal	F932_7432	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	to_decimal	F932_7433	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	to_octal	F932_7434	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	to_integer	F932_7435	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	to_integer_8	F932_7436	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	append_decimal_integer	F932_7437	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	append_octal_integer	F932_7438	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	append_hexadecimal_integer	F932_7439	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	div	F932_7440	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	mod	F932_7441	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	power	F932_7442	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	bit_and	F932_7443	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	bit_or	F932_7444	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	bit_xor	F932_7445	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	bit_not	F932_7446	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	bit_shift_left	F932_7447	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	bit_shift_right	F932_7448	C3/kl932.c
+kernel	KL_INTEGER_ROUTINES	is_even	F932_7449	C3/kl932.c
+kernel	KL_STRING_ROUTINES	make_from_string	F933_7450	C3/kl933.c
+kernel	KL_STRING_ROUTINES	make_buffer	F933_7451	C3/kl933.c
+kernel	KL_STRING_ROUTINES	has_substring	F933_7452	C3/kl933.c
+kernel	KL_STRING_ROUTINES	is_decimal	F933_7453	C3/kl933.c
+kernel	KL_STRING_ROUTINES	is_integer_64	F933_7454	C3/kl933.c
+kernel	KL_STRING_ROUTINES	is_hexadecimal	F933_7455	C3/kl933.c
+kernel	KL_STRING_ROUTINES	is_base64	F933_7456	C3/kl933.c
+kernel	KL_STRING_ROUTINES	new_empty_string	F933_7457	C3/kl933.c
+kernel	KL_STRING_ROUTINES	to_utf16_be	F933_7458	C3/kl933.c
+kernel	KL_STRING_ROUTINES	to_utf16_le	F933_7459	C3/kl933.c
+kernel	KL_STRING_ROUTINES	to_utf32_be	F933_7460	C3/kl933.c
+kernel	KL_STRING_ROUTINES	to_utf32_le	F933_7461	C3/kl933.c
+kernel	KL_STRING_ROUTINES	substring_index	F933_7462	C3/kl933.c
+kernel	KL_STRING_ROUTINES	case_insensitive_hash_code	F933_7463	C3/kl933.c
+kernel	KL_STRING_ROUTINES	concat	F933_7464	C3/kl933.c
+kernel	KL_STRING_ROUTINES	elks_same_string	F933_7465	C3/kl933.c
+kernel	KL_STRING_ROUTINES	same_string	F933_7466	C3/kl933.c
+kernel	KL_STRING_ROUTINES	same_case_insensitive	F933_7467	C3/kl933.c
+kernel	KL_STRING_ROUTINES	three_way_comparison	F933_7468	C3/kl933.c
+kernel	KL_STRING_ROUTINES	three_way_case_insensitive_comparison	F933_7469	C3/kl933.c
+kernel	KL_STRING_ROUTINES	cloned_string	F933_7470	C3/kl933.c
+kernel	KL_STRING_ROUTINES	appended_string	F933_7471	C3/kl933.c
+kernel	KL_STRING_ROUTINES	appended_substring	F933_7472	C3/kl933.c
+kernel	KL_STRING_ROUTINES	replaced_substring	F933_7473	C3/kl933.c
+kernel	KL_STRING_ROUTINES	append_substring_to_string	F933_7474	C3/kl933.c
+kernel	KL_STRING_ROUTINES	replaced_all_substrings	F933_7475	C3/kl933.c
+kernel	KL_STRING_ROUTINES	replaced_first_substring	F933_7476	C3/kl933.c
+kernel	KL_STRING_ROUTINES	as_string	F933_7477	C3/kl933.c
+kernel	KL_STRING_ROUTINES	hexadecimal_to_integer	F933_7478	C3/kl933.c
+kernel	KL_STRING_ROUTINES	left_adjust	F933_7479	C3/kl933.c
+kernel	KL_STRING_ROUTINES	right_adjust	F933_7480	C3/kl933.c
+kernel	KL_STRING_ROUTINES	wipe_out	F933_7481	C3/kl933.c
+kernel	KL_STRING_ROUTINES	prune_all_trailing	F933_7482	C3/kl933.c
+kernel	KL_STRING_ROUTINES	resize_buffer	F933_7483	C3/kl933.c
+kernel	KL_STRING_ROUTINES	to_integer_64	F933_7484	C3/kl933.c
+kernel	KL_STRING_ROUTINES	dummy_string	F933_7485	C3/kl933.c
+kernel	KL_STRING_ROUTINES	max_integer_64_digits	F933_7486	C3/kl933.c
+kernel	KL_STRING_ROUTINES	min_negative_integer_64_digits	F933_7487	C3/kl933.c
+kernel	KL_STRING_ROUTINES	code_zero	F933_7488	C3/kl933.c
+kernel	KL_ARRAY_ROUTINES [G#1]	make_from_array	F987_7489	C4/kl987.c
+kernel	KL_ARRAY_ROUTINES [G#1]	make_empty_with_lower	F987_7490	C4/kl987.c
+kernel	KL_ARRAY_ROUTINES [G#1]	has	F987_7491	C4/kl987.c
+kernel	KL_ARRAY_ROUTINES [G#1]	has_void	F987_7492	C4/kl987.c
+kernel	KL_ARRAY_ROUTINES [G#1]	subarray	F987_7493	C4/kl987.c
+kernel	KL_ARRAY_ROUTINES [G#1]	cloned_array	F987_7494	C4/kl987.c
+kernel	KL_ARRAY_ROUTINES [G#1]	subcopy	F987_7495	C4/kl987.c
+kernel	KL_ARRAY_ROUTINES [G#1]	resize	F987_7496	C4/kl987.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	make_from_array	F991_7489	C5/kl991.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	make_empty_with_lower	F991_7490	C5/kl991.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	has	F991_7491	C5/kl991.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	has_void	F991_7492	C5/kl991.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	subarray	F991_7493	C5/kl991.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	cloned_array	F991_7494	C5/kl991.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	subcopy	F991_7495	C5/kl991.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	resize	F991_7496	C5/kl991.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	make_from_array	F993_7489	C5/kl993.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	make_empty_with_lower	F993_7490	C5/kl993.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	has	F993_7491	C5/kl993.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	has_void	F993_7492	C5/kl993.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	subarray	F993_7493	C5/kl993.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	cloned_array	F993_7494	C5/kl993.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	subcopy	F993_7495	C5/kl993.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	resize	F993_7496	C5/kl993.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	make_from_array	F999_7489	C5/kl999.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	make_empty_with_lower	F999_7490	C5/kl999.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	has	F999_7491	C5/kl999.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	has_void	F999_7492	C5/kl999.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	subarray	F999_7493	C5/kl999.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	cloned_array	F999_7494	C5/kl999.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	subcopy	F999_7495	C5/kl999.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	resize	F999_7496	C5/kl999.c
+kernel	KL_ARRAY_ROUTINES [REAL_32]	make_from_array	F1006_7489	C5/kl1006.c
+kernel	KL_ARRAY_ROUTINES [REAL_32]	make_empty_with_lower	F1006_7490	C5/kl1006.c
+kernel	KL_ARRAY_ROUTINES [REAL_32]	has	F1006_7491	C5/kl1006.c
+kernel	KL_ARRAY_ROUTINES [REAL_32]	has_void	F1006_7492	C5/kl1006.c
+kernel	KL_ARRAY_ROUTINES [REAL_32]	subarray	F1006_7493	C5/kl1006.c
+kernel	KL_ARRAY_ROUTINES [REAL_32]	cloned_array	F1006_7494	C5/kl1006.c
+kernel	KL_ARRAY_ROUTINES [REAL_32]	subcopy	F1006_7495	C5/kl1006.c
+kernel	KL_ARRAY_ROUTINES [REAL_32]	resize	F1006_7496	C5/kl1006.c
+kernel	KI_CHARACTER_BUFFER	make_from_string	F934_7498	C3/ki934.c
+kernel	KI_CHARACTER_BUFFER	to_text	F934_7500	C3/ki934.c
+kernel	KI_CHARACTER_BUFFER	as_special	F934_7501	C3/ki934.c
+kernel	KI_CHARACTER_BUFFER	append_substring_to_string	F934_7502	C3/ki934.c
+kernel	KI_CHARACTER_BUFFER	fill_from_string	F934_7503	C3/ki934.c
+kernel	KI_CHARACTER_BUFFER	fill_from_stream	F934_7504	C3/ki934.c
+kernel	KI_CHARACTER_BUFFER	dummy_string	F934_7505	C3/ki934.c
+kernel	KI_CHARACTER_INPUT_STREAM	read_to_string	F935_7507	C3/ki935.c
+kernel	KI_CHARACTER_INPUT_STREAM	valid_unread_character	F935_7509	C3/ki935.c
+kernel	KI_INPUT_FILE	end_of_input	F937_7514	C3/ki937.c
+kernel	KI_INPUT_FILE	valid_unread_character	F937_7515	C3/ki937.c
+kernel	KL_CHARACTER_BUFFER	make	F940_7518	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	item	F940_7519	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	substring	F940_7520	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	count	F940_7521	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	as_special	F940_7522	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	put	F940_7523	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	append_substring_to_string	F940_7524	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	fill_from_string	F940_7525	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	fill_from_stream	F940_7526	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	move_left	F940_7527	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	move_right	F940_7528	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	resize	F940_7529	C3/kl940.c
+kernel	KL_CHARACTER_BUFFER	area	F940_7530	C3/kl940.c
+kernel	UC_CHARACTER	make_from_character	F941_7531	C3/uc941.c
+kernel	UC_CHARACTER	make_from_code	F941_7532	C3/uc941.c
+kernel	UC_CHARACTER	code	F941_7533	C3/uc941.c
+kernel	UC_CHARACTER	hash_code	F941_7534	C3/uc941.c
+kernel	UC_CHARACTER	is_ascii	F941_7535	C3/uc941.c
+kernel	UC_CHARACTER	is_less	F941_7536	C3/uc941.c
+kernel	UC_CHARACTER	as_lower	F941_7537	C3/uc941.c
+kernel	UC_CHARACTER	to_lower	F941_7538	C3/uc941.c
+kernel	UC_CHARACTER	as_upper	F941_7539	C3/uc941.c
+kernel	UC_CHARACTER	to_upper	F941_7540	C3/uc941.c
+kernel	UC_CHARACTER	to_character	F941_7541	C3/uc941.c
+kernel	UC_CHARACTER	out	F941_7542	C3/uc941.c
+elks	TYPE [MODEL_ACCESS]	name	F1009_4817	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	generic_parameter_type	F1009_4818	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	type_id	F1009_4819	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	hash_code	F1009_4820	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	generic_parameter_count	F1009_4821	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	has_default	F1009_4822	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	is_expanded	F1009_4823	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	is_attached	F1009_4824	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	is_equal	F1009_4825	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	is_strictly_conforming_to	F1009_4826	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	is_conforming_to	F1009_4827	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	adapt	F1009_4828	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	attempt	F1009_4829	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	default_detachable_value	F1009_4830	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	default	F1009_4831	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	out	F1009_4832	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	debug_output	F1009_4833	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	plus	F1009_4834	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	same_string	F1009_4835	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	is_case_insensitive_equal	F1009_4836	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	as_lower	F1009_4837	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	as_upper	F1009_4838	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	to_string_8	F1009_4839	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	to_string_32	F1009_4840	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	internal_name	F1009_4841	C5/ty1009.c
+elks	TYPE [MODEL_ACCESS]	runtime_name	F1009_4842	C5/ty1009.c
+utilities	BOOL_ARG	make	F943_7543	C3/bo943.c
+utilities	BOOL_ARG	value	F943_7544	C3/bo943.c
+utilities	BOOL_ARG	out	F943_7545	C3/bo943.c
+utilities	INT_ARG	make	F944_7546	C3/in944.c
+utilities	INT_ARG	value	F944_7547	C3/in944.c
+utilities	INT_ARG	out	F944_7548	C3/in944.c
+utilities	CHAR_ARG	make	F945_7549	C3/ch945.c
+utilities	CHAR_ARG	value	F945_7550	C3/ch945.c
+utilities	CHAR_ARG	out	F945_7551	C3/ch945.c
+utilities	REAL_ARG	make	F946_7552	C3/re946.c
+utilities	REAL_ARG	value	F946_7553	C3/re946.c
+utilities	REAL_ARG	out	F946_7554	C3/re946.c
+utilities	STR_ARG	make	F947_7555	C3/st947.c
+utilities	STR_ARG	value	F947_7556	C3/st947.c
+utilities	STR_ARG	out	F947_7557	C3/st947.c
+kernel	UC_V510_CTYPE_TITLECASE	major_version	F948_7558	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	minor_version	F948_7559	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	update_version	F948_7560	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_0	F948_7561	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_1	F948_7562	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_2	F948_7563	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_3	F948_7564	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_4	F948_7565	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_5	F948_7566	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	empty_title_code_segment	F948_7567	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_29	F948_7568	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_30	F948_7569	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_31	F948_7570	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_33	F948_7571	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_36	F948_7572	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_44	F948_7573	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_45	F948_7574	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_166	F948_7575	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_167	F948_7576	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_255	F948_7577	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0	F948_7578	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_1_segment_4	F948_7579	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_1	F948_7580	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	empty_title_code_plane	F948_7581	C3/uc948.c
+kernel	UC_V510_CTYPE_TITLECASE	title_codes	F948_7582	C3/uc948.c
+kernel	UC_V510_CTYPE_UPPERCASE	major_version	F949_7583	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	minor_version	F949_7584	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	update_version	F949_7585	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_0	F949_7586	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_1	F949_7587	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_2	F949_7588	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_3	F949_7589	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_4	F949_7590	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_5	F949_7591	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	empty_upper_code_segment	F949_7592	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_29	F949_7593	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_30	F949_7594	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_31	F949_7595	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_33	F949_7596	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_36	F949_7597	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_44	F949_7598	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_45	F949_7599	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_166	F949_7600	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_167	F949_7601	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_255	F949_7602	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0	F949_7603	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_1_segment_4	F949_7604	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_1	F949_7605	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	empty_upper_code_plane	F949_7606	C3/uc949.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_codes	F949_7607	C3/uc949.c
+kernel	UC_V510_CTYPE_LOWERCASE	major_version	F950_7608	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	minor_version	F950_7609	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	update_version	F950_7610	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_0	F950_7611	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_1	F950_7612	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_2	F950_7613	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_3	F950_7614	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_4	F950_7615	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_5	F950_7616	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	empty_lower_code_segment	F950_7617	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_16	F950_7618	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_30	F950_7619	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_31	F950_7620	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_33	F950_7621	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_36	F950_7622	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_44	F950_7623	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_166	F950_7624	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_167	F950_7625	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_255	F950_7626	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0	F950_7627	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_1_segment_4	F950_7628	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_1	F950_7629	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	empty_lower_code_plane	F950_7630	C3/uc950.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_codes	F950_7631	C3/uc950.c
+kernel	UC_V510_CTYPE	valid_code	F951_7632	C3/uc951.c
+kernel	UC_V510_CTYPE	lower_code	F951_7633	C3/uc951.c
+kernel	UC_V510_CTYPE	upper_code	F951_7634	C3/uc951.c
+kernel	UC_V510_CTYPE	title_code	F951_7635	C3/uc951.c
+kernel	KL_CLONABLE	cloned_object	F953_7636	C3/kl953.c
+lexical	YY_SCANNER	make	F954_7637	C3/yy954.c
+lexical	YY_SCANNER	make_with_file	F954_7638	C3/yy954.c
+lexical	YY_SCANNER	make_with_buffer	F954_7639	C3/yy954.c
+lexical	YY_SCANNER	last_token	F954_7641	C3/yy954.c
+lexical	YY_SCANNER	end_of_file	F954_7650	C3/yy954.c
+lexical	YY_SCANNER	scanning_error	F954_7651	C3/yy954.c
+lexical	YY_SCANNER	set_last_token	F954_7653	C3/yy954.c
+lexical	YY_SCANNER	scan	F954_7655	C3/yy954.c
+lexical	YY_SCANNER	append_text_to_string	F954_7657	C3/yy954.c
+lexical	YY_SCANNER	append_text_substring_to_string	F954_7658	C3/yy954.c
+lexical	YY_SCANNER	terminate	F954_7659	C3/yy954.c
+lexical	YY_SCANNER	wrap	F954_7660	C3/yy954.c
+lexical	YY_SCANNER	last_character	F954_7665	C3/yy954.c
+lexical	YY_SCANNER	input_buffer	F954_7666	C3/yy954.c
+lexical	YY_SCANNER	set_input_buffer	F954_7667	C3/yy954.c
+lexical	YY_SCANNER	flush_input_buffer	F954_7668	C3/yy954.c
+lexical	YY_SCANNER	new_file_buffer	F954_7669	C3/yy954.c
+lexical	YY_SCANNER	new_string_buffer	F954_7670	C3/yy954.c
+lexical	YY_SCANNER	empty_buffer	F954_7671	C3/yy954.c
+lexical	YY_SCANNER	output	F954_7672	C3/yy954.c
+lexical	YY_SCANNER	echo	F954_7673	C3/yy954.c
+lexical	YY_SCANNER	pre_action	F954_7674	C3/yy954.c
+lexical	YY_SCANNER	post_action	F954_7675	C3/yy954.c
+lexical	YY_SCANNER	pre_eof_action	F954_7676	C3/yy954.c
+lexical	YY_SCANNER	post_eof_action	F954_7677	C3/yy954.c
+lexical	YY_SCANNER	default_action	F954_7678	C3/yy954.c
+lexical	YY_SCANNER	fatal_error	F954_7679	C3/yy954.c
+lexical	YY_SCANNER	yyeof_token	F954_7681	C3/yy954.c
+lexical	YY_SCANNER	yyerror_token	F954_7682	C3/yy954.c
+lexical	YY_SCANNER	yyunknown_token	F954_7683	C3/yy954.c
+lexical	YY_SCANNER_SKELETON	make_with_buffer	F955_7684	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_initialize	F955_7685	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	reset	F955_7686	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	text	F955_7687	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	text_item	F955_7688	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	text_substring	F955_7689	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	start_condition	F955_7690	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	text_count	F955_7691	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	line	F955_7692	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	column	F955_7693	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	position	F955_7694	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	set_start_condition	F955_7695	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	append_text_to_string	F955_7696	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	append_text_substring_to_string	F955_7697	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	more	F955_7698	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	less	F955_7699	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	unread_character	F955_7700	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	read_character	F955_7701	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	set_input_buffer	F955_7702	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	flush_input_buffer	F955_7703	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	print_last_token	F955_7704	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_load_input_buffer	F955_7705	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_refill_input_buffer	F955_7706	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_set_content	F955_7707	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_fixed_array	F955_7709	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_array_subcopy	F955_7710	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_at_beginning_of_line	F955_7713	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_set_beginning_of_line	F955_7714	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_set_line	F955_7715	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_set_column	F955_7716	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_set_line_column	F955_7717	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_start_state	F955_7720	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_content	F955_7721	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_content_area	F955_7722	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_end	F955_7723	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_start	F955_7724	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_line	F955_7725	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_column	F955_7726	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_position	F955_7727	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_more_flag	F955_7728	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_more_len	F955_7729	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_last_accepting_state	F955_7730	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_last_accepting_cpos	F955_7731	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yybuffer_capacity	F955_7732	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yyend_of_buffer_character	F955_7733	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yyend_of_file_character	F955_7734	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yynew_line_character	F955_7735	C3/yy955.c
+lexical	YY_SCANNER_SKELETON	yy_dummy	F955_7741	C3/yy955.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_initialize	F956_7742	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	reset	F956_7743	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	read_token	F956_7744	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	reject	F956_7745	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_nxt	F956_7746	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_chk	F956_7747	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_base	F956_7748	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_def	F956_7749	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_ec	F956_7750	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_meta	F956_7751	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_accept	F956_7752	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_acclist	F956_7753	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_set_content	F956_7754	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_previous_state	F956_7756	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_null_trans_state	F956_7757	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_rejected	F956_7758	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_state_stack	F956_7759	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_state_count	F956_7760	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_full_match	F956_7761	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_lp	F956_7762	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_looking_for_trail_begin	F956_7763	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_full_lp	F956_7764	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_full_state	F956_7765	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yybacking_up	F956_7772	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yynext_token	F956_7774	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yymatch	F956_7775	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yyfind_action	F956_7776	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yydo_action	F956_7777	C3/yy956.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yyfind_rule	F956_7778	C3/yy956.c
+kernel	KL_SHARED_FILE_SYSTEM	file_system	F957_7779	C3/kl957.c
+kernel	KL_SHARED_FILE_SYSTEM	windows_file_system	F957_7780	C3/kl957.c
+kernel	KL_SHARED_FILE_SYSTEM	windows_backslash_only_file_system	F957_7781	C3/kl957.c
+kernel	KL_SHARED_FILE_SYSTEM	unix_file_system	F957_7782	C3/kl957.c
+kernel	KL_DIRECTORY	make	F958_7783	C4/kl958.c
+kernel	KL_DIRECTORY	name	F958_7784	C4/kl958.c
+kernel	KL_DIRECTORY	last_entry	F958_7785	C4/kl958.c
+kernel	KL_DIRECTORY	filenames	F958_7786	C4/kl958.c
+kernel	KL_DIRECTORY	directory_names	F958_7787	C4/kl958.c
+kernel	KL_DIRECTORY	is_open_read	F958_7788	C4/kl958.c
+kernel	KL_DIRECTORY	end_of_input	F958_7789	C4/kl958.c
+kernel	KL_DIRECTORY	exists	F958_7790	C4/kl958.c
+kernel	KL_DIRECTORY	is_readable	F958_7791	C4/kl958.c
+kernel	KL_DIRECTORY	is_empty	F958_7792	C4/kl958.c
+kernel	KL_DIRECTORY	open_read	F958_7793	C4/kl958.c
+kernel	KL_DIRECTORY	close	F958_7794	C4/kl958.c
+kernel	KL_DIRECTORY	create_directory	F958_7795	C4/kl958.c
+kernel	KL_DIRECTORY	recursive_create_directory	F958_7796	C4/kl958.c
+kernel	KL_DIRECTORY	delete	F958_7797	C4/kl958.c
+kernel	KL_DIRECTORY	recursive_delete	F958_7798	C4/kl958.c
+kernel	KL_DIRECTORY	recursive_copy_directory	F958_7799	C4/kl958.c
+kernel	KL_DIRECTORY	do_all	F958_7800	C4/kl958.c
+kernel	KL_DIRECTORY	do_if	F958_7801	C4/kl958.c
+kernel	KL_DIRECTORY	there_exists	F958_7802	C4/kl958.c
+kernel	KL_DIRECTORY	for_all	F958_7803	C4/kl958.c
+kernel	KL_DIRECTORY	read_entry	F958_7804	C4/kl958.c
+kernel	KL_DIRECTORY	unread_entry	F958_7805	C4/kl958.c
+kernel	KL_DIRECTORY	entry_buffer	F958_7806	C4/kl958.c
+kernel	KL_DIRECTORY	valid_entry_buffer	F958_7807	C4/kl958.c
+kernel	KL_DIRECTORY	old_end_of_input	F958_7808	C4/kl958.c
+kernel	KL_DIRECTORY	tmp_file	F958_7809	C4/kl958.c
+kernel	KL_DIRECTORY	tmp_directory	F958_7810	C4/kl958.c
+kernel	KL_DIRECTORY	dummy_name	F958_7811	C4/kl958.c
+kernel	KL_DIRECTORY	dummy_entry	F958_7812	C4/kl958.c
+kernel	KL_DIRECTORY	empty_name	F958_7813	C4/kl958.c
+kernel	KL_FILE	make	F959_7814	C4/kl959.c
+kernel	KL_FILE	name	F959_7815	C4/kl959.c
+kernel	KL_FILE	time_stamp	F959_7816	C4/kl959.c
+kernel	KL_FILE	count	F959_7817	C4/kl959.c
+kernel	KL_FILE	exists	F959_7818	C4/kl959.c
+kernel	KL_FILE	is_readable	F959_7819	C4/kl959.c
+kernel	KL_FILE	is_closed	F959_7820	C4/kl959.c
+kernel	KL_FILE	same_physical_file	F959_7821	C4/kl959.c
+kernel	KL_FILE	close	F959_7822	C4/kl959.c
+kernel	KL_FILE	change_name	F959_7823	C4/kl959.c
+kernel	KL_FILE	copy_file	F959_7824	C4/kl959.c
+kernel	KL_FILE	concat	F959_7825	C4/kl959.c
+kernel	KL_FILE	delete	F959_7826	C4/kl959.c
+kernel	KL_FILE	change_mode	F959_7827	C4/kl959.c
+kernel	KL_FILE	empty_name	F959_7828	C4/kl959.c
+kernel	KL_FILE	tmp_file1	F959_7829	C4/kl959.c
+kernel	KL_FILE	dummy_name	F959_7830	C4/kl959.c
+kernel	KL_OUTPUT_FILE	is_open_write	F960_7844	C4/kl960.c
+kernel	KL_OUTPUT_FILE	put_character	F960_7845	C4/kl960.c
+kernel	KL_OUTPUT_FILE	put_string	F960_7846	C4/kl960.c
+kernel	KL_OUTPUT_FILE	open_write	F960_7847	C4/kl960.c
+kernel	KL_OUTPUT_FILE	open_append	F960_7848	C4/kl960.c
+kernel	KL_OUTPUT_FILE	recursive_open_write	F960_7849	C4/kl960.c
+kernel	KL_OUTPUT_FILE	recursive_open_append	F960_7850	C4/kl960.c
+kernel	KL_OUTPUT_FILE	flush	F960_7851	C4/kl960.c
+kernel	KL_WINDOWS_OUTPUT_FILE	eol	F962_7860	C4/kl962.c
+kernel	KL_UNIX_OUTPUT_FILE	eol	F963_7861	C4/kl963.c
+kernel	KL_INPUT_FILE	make	F964_7862	C4/kl964.c
+kernel	KL_INPUT_FILE	last_character	F964_7863	C4/kl964.c
+kernel	KL_INPUT_FILE	last_string	F964_7864	C4/kl964.c
+kernel	KL_INPUT_FILE	is_open_read	F964_7865	C4/kl964.c
+kernel	KL_INPUT_FILE	end_of_file	F964_7866	C4/kl964.c
+kernel	KL_INPUT_FILE	read_character	F964_7867	C4/kl964.c
+kernel	KL_INPUT_FILE	unread_character	F964_7868	C4/kl964.c
+kernel	KL_INPUT_FILE	read_string	F964_7869	C4/kl964.c
+kernel	KL_INPUT_FILE	read_to_string	F964_7870	C4/kl964.c
+kernel	KL_INPUT_FILE	read_to_buffer	F964_7871	C4/kl964.c
+kernel	KL_INPUT_FILE	open_read	F964_7872	C4/kl964.c
+kernel	KL_INPUT_FILE	close	F964_7873	C4/kl964.c
+kernel	KL_INPUT_FILE	character_buffer	F964_7874	C4/kl964.c
+kernel	KL_INPUT_FILE	file_readable	F964_7875	C4/kl964.c
+kernel	KL_INPUT_FILE	dummy_string	F964_7877	C4/kl964.c
+kernel	KL_INPUT_FILE	dummy_kl_character_buffer	F964_7878	C4/kl964.c
+kernel	KL_TEXT_INPUT_FILE	last_character	F965_7884	C4/kl965.c
+kernel	KL_TEXT_INPUT_FILE	last_string	F965_7885	C4/kl965.c
+kernel	KL_TEXT_INPUT_FILE	eol	F965_7886	C4/kl965.c
+kernel	KL_TEXT_INPUT_FILE	read_line	F965_7887	C4/kl965.c
+kernel	KL_TEXT_INPUT_FILE	read_new_line	F965_7888	C4/kl965.c
+kernel	KL_BINARY_INPUT_FILE	last_character	F966_7889	C4/kl966.c
+kernel	KL_BINARY_INPUT_FILE	last_string	F966_7890	C4/kl966.c
+kernel	KL_WINDOWS_INPUT_FILE	read_line	F967_7891	C4/kl967.c
+kernel	KL_WINDOWS_INPUT_FILE	read_new_line	F967_7892	C4/kl967.c
+kernel	KL_WINDOWS_INPUT_FILE	eol	F967_7893	C4/kl967.c
+kernel	KL_UNIX_INPUT_FILE	read_line	F968_7894	C4/kl968.c
+kernel	KL_UNIX_INPUT_FILE	read_new_line	F968_7895	C4/kl968.c
+kernel	KL_UNIX_INPUT_FILE	eol	F968_7896	C4/kl968.c
+kernel	KL_STDERR_FILE	make	F969_7897	C4/kl969.c
+kernel	KL_STDERR_FILE	eol	F969_7898	C4/kl969.c
+kernel	KL_STDERR_FILE	is_open_write	F969_7899	C4/kl969.c
+kernel	KL_STDERR_FILE	put_character	F969_7900	C4/kl969.c
+kernel	KL_STDERR_FILE	put_string	F969_7901	C4/kl969.c
+kernel	KL_STDERR_FILE	flush	F969_7902	C4/kl969.c
+kernel	KL_STDOUT_FILE	make	F970_7903	C4/kl970.c
+kernel	KL_STDOUT_FILE	eol	F970_7904	C4/kl970.c
+kernel	KL_STDOUT_FILE	is_open_write	F970_7905	C4/kl970.c
+kernel	KL_STDOUT_FILE	put_character	F970_7906	C4/kl970.c
+kernel	KL_STDOUT_FILE	put_string	F970_7907	C4/kl970.c
+kernel	KL_STDOUT_FILE	flush	F970_7908	C4/kl970.c
+kernel	KL_STDIN_FILE	make	F971_7909	C4/kl971.c
+kernel	KL_STDIN_FILE	last_string	F971_7910	C4/kl971.c
+kernel	KL_STDIN_FILE	eol	F971_7911	C4/kl971.c
+kernel	KL_STDIN_FILE	is_open_read	F971_7912	C4/kl971.c
+kernel	KL_STDIN_FILE	end_of_file	F971_7913	C4/kl971.c
+kernel	KL_STDIN_FILE	read_character	F971_7914	C4/kl971.c
+kernel	KL_STDIN_FILE	unread_character	F971_7915	C4/kl971.c
+kernel	KL_STDIN_FILE	read_string	F971_7916	C4/kl971.c
+kernel	KL_STDIN_FILE	read_line	F971_7917	C4/kl971.c
+kernel	KL_STDIN_FILE	read_new_line	F971_7918	C4/kl971.c
+kernel	KL_STDIN_FILE	read_to_string	F971_7919	C4/kl971.c
+kernel	KL_STDIN_FILE	read_to_buffer	F971_7920	C4/kl971.c
+kernel	KL_STDIN_FILE	file_readable	F971_7921	C4/kl971.c
+kernel	KL_STDIN_FILE	character_buffer	F971_7922	C4/kl971.c
+kernel	KL_STDIN_FILE	dummy_string	F971_7923	C4/kl971.c
+kernel	KI_FILE_SYSTEM	make	F972_7924	C4/ki972.c
+kernel	KI_FILE_SYSTEM	same_canonical_pathnames	F972_7956	C4/ki972.c
+kernel	KI_FILE_SYSTEM	same_canonical_absolute_pathnames	F972_7957	C4/ki972.c
+kernel	KI_FILE_SYSTEM	is_canonical_subpathname	F972_7959	C4/ki972.c
+kernel	KI_FILE_SYSTEM	is_canonical_absolute_subpathname	F972_7960	C4/ki972.c
+kernel	KI_FILE_SYSTEM	canonical_pathname	F972_7965	C4/ki972.c
+kernel	KI_FILE_SYSTEM	pathname_from_file_system	F972_7974	C4/ki972.c
+kernel	KL_FILE_SYSTEM	is_current_file_system	F973_7978	C4/kl973.c
+kernel	KL_FILE_SYSTEM	is_file_readable	F973_7979	C4/kl973.c
+kernel	KL_FILE_SYSTEM	file_exists	F973_7980	C4/kl973.c
+kernel	KL_FILE_SYSTEM	file_count	F973_7981	C4/kl973.c
+kernel	KL_FILE_SYSTEM	file_time_stamp	F973_7982	C4/kl973.c
+kernel	KL_FILE_SYSTEM	same_physical_file	F973_7983	C4/kl973.c
+kernel	KL_FILE_SYSTEM	same_text_files	F973_7984	C4/kl973.c
+kernel	KL_FILE_SYSTEM	same_binary_files	F973_7985	C4/kl973.c
+kernel	KL_FILE_SYSTEM	rename_file	F973_7986	C4/kl973.c
+kernel	KL_FILE_SYSTEM	copy_file	F973_7987	C4/kl973.c
+kernel	KL_FILE_SYSTEM	concat_files	F973_7988	C4/kl973.c
+kernel	KL_FILE_SYSTEM	delete_file	F973_7989	C4/kl973.c
+kernel	KL_FILE_SYSTEM	is_directory_readable	F973_7990	C4/kl973.c
+kernel	KL_FILE_SYSTEM	directory_exists	F973_7991	C4/kl973.c
+kernel	KL_FILE_SYSTEM	is_directory_empty	F973_7992	C4/kl973.c
+kernel	KL_FILE_SYSTEM	create_directory	F973_7993	C4/kl973.c
+kernel	KL_FILE_SYSTEM	recursive_create_directory	F973_7994	C4/kl973.c
+kernel	KL_FILE_SYSTEM	delete_directory	F973_7995	C4/kl973.c
+kernel	KL_FILE_SYSTEM	recursive_delete_directory	F973_7996	C4/kl973.c
+kernel	KL_FILE_SYSTEM	recursive_copy_directory	F973_7997	C4/kl973.c
+kernel	KL_FILE_SYSTEM	cwd	F973_7998	C4/kl973.c
+kernel	KL_FILE_SYSTEM	current_working_directory	F973_7999	C4/kl973.c
+kernel	KL_FILE_SYSTEM	cd	F973_8000	C4/kl973.c
+kernel	KL_FILE_SYSTEM	set_current_working_directory	F973_8001	C4/kl973.c
+kernel	KL_FILE_SYSTEM	tmp_file	F973_8002	C4/kl973.c
+kernel	KL_FILE_SYSTEM	tmp_directory	F973_8003	C4/kl973.c
+kernel	KL_FILE_SYSTEM	dummy_name	F973_8004	C4/kl973.c
+kernel	KL_FILE_SYSTEM	execution_environment	F973_8005	C4/kl973.c
+kernel	KL_WINDOWS_FILE_SYSTEM	make	F974_8006	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	make_backslash_only	F974_8007	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	new_input_file	F974_8008	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	new_output_file	F974_8009	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	eol	F974_8010	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_absolute_pathname	F974_8011	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_relative_pathname	F974_8012	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_root_directory	F974_8013	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	same_pathnames	F974_8014	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	same_canonical_pathnames	F974_8015	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_subpathname	F974_8016	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_canonical_subpathname	F974_8017	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	basename	F974_8018	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	dirname	F974_8019	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	pathname	F974_8020	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	nested_pathname	F974_8021	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	relative_current_directory	F974_8022	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	relative_parent_directory	F974_8023	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	root_directory	F974_8024	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	absolute_pathname	F974_8025	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	absolute_parent_directory	F974_8026	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	absolute_root_directory	F974_8027	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	string_to_pathname	F974_8028	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	pathname_to_string	F974_8029	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	has_extension	F974_8030	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	extension	F974_8031	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	exe_extension	F974_8032	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_directory_separator	F974_8033	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	directory_separator	F974_8034	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	secondary_directory_separator	F974_8035	C4/kl974.c
+kernel	KL_WINDOWS_FILE_SYSTEM	current_drive	F974_8036	C4/kl974.c
+kernel	KL_UNIX_FILE_SYSTEM	new_input_file	F975_8037	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	new_output_file	F975_8038	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	eol	F975_8039	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	is_absolute_pathname	F975_8040	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	is_relative_pathname	F975_8041	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	is_root_directory	F975_8042	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	same_pathnames	F975_8043	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	same_canonical_pathnames	F975_8044	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	is_subpathname	F975_8045	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	is_canonical_subpathname	F975_8046	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	basename	F975_8047	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	dirname	F975_8048	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	pathname	F975_8049	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	nested_pathname	F975_8050	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	relative_current_directory	F975_8051	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	relative_parent_directory	F975_8052	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	root_directory	F975_8053	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	absolute_pathname	F975_8054	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	absolute_parent_directory	F975_8055	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	absolute_root_directory	F975_8056	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	string_to_pathname	F975_8057	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	pathname_to_string	F975_8058	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	has_extension	F975_8059	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	extension	F975_8060	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	exe_extension	F975_8061	C4/kl975.c
+kernel	KL_UNIX_FILE_SYSTEM	directory_separator	F975_8062	C4/kl975.c
+kernel	UC_UNICODE_ROUTINES	valid_non_surrogate_code	F976_8063	C4/uc976.c
+kernel	UC_UNICODE_ROUTINES	is_bmp_code	F976_8064	C4/uc976.c
+kernel	UC_UNICODE_ROUTINES	valid_ascii_code	F976_8065	C4/uc976.c
+kernel	UC_UNICODE_ROUTINES	is_ascii_string	F976_8066	C4/uc976.c
+kernel	UC_UNICODE_ROUTINES	code_to_string	F976_8067	C4/uc976.c
+parse	YY_PARSER_TOKENS	yy_character_token_name	F977_8069	C4/yy977.c
+utilities	EVT_TOKENS	last_detachable_any_value	F978_8070	C4/ev978.c
+utilities	EVT_TOKENS	last_integer_value	F978_8071	C4/ev978.c
+utilities	EVT_TOKENS	last_real_value	F978_8072	C4/ev978.c
+utilities	EVT_TOKENS	last_string_value	F978_8073	C4/ev978.c
+utilities	EVT_TOKENS	token_name	F978_8074	C4/ev978.c
+utilities	EVT_TOKENS	number	F978_8075	C4/ev978.c
+utilities	EVT_TOKENS	real	F978_8076	C4/ev978.c
+utilities	EVT_TOKENS	ident	F978_8077	C4/ev978.c
+utilities	EVT_TOKENS	char_lit	F978_8078	C4/ev978.c
+utilities	EVT_TOKENS	str_lit	F978_8079	C4/ev978.c
+utilities	EVT_TOKENS	tk_system	F978_8080	C4/ev978.c
+utilities	EVT_TOKENS	tk_bool	F978_8081	C4/ev978.c
+utilities	EVT_TOKENS	tk_char	F978_8082	C4/ev978.c
+utilities	EVT_TOKENS	tk_int	F978_8083	C4/ev978.c
+utilities	EVT_TOKENS	tk_real	F978_8084	C4/ev978.c
+utilities	EVT_TOKENS	tk_str	F978_8085	C4/ev978.c
+utilities	EVT_TOKENS	tk_tuple	F978_8086	C4/ev978.c
+utilities	EVT_TOKENS	tk_array	F978_8087	C4/ev978.c
+utilities	EVT_TOKENS	tk_true	F978_8088	C4/ev978.c
+utilities	EVT_TOKENS	tk_false	F978_8089	C4/ev978.c
+utilities	EVT_TOKENS	tk_true_lower	F978_8090	C4/ev978.c
+utilities	EVT_TOKENS	tk_false_lower	F978_8091	C4/ev978.c
+utilities	EVT_TOKENS	tk_comma	F978_8092	C4/ev978.c
+utilities	EVT_TOKENS	tk_colon	F978_8093	C4/ev978.c
+utilities	EVT_TOKENS	tk_semi_colon	F978_8094	C4/ev978.c
+utilities	EVT_TOKENS	tk_lparen	F978_8095	C4/ev978.c
+utilities	EVT_TOKENS	tk_rparen	F978_8096	C4/ev978.c
+utilities	EVT_TOKENS	tk_lsbrac	F978_8097	C4/ev978.c
+utilities	EVT_TOKENS	tk_rsbrac	F978_8098	C4/ev978.c
+utilities	EVT_TOKENS	tk_labrac	F978_8099	C4/ev978.c
+utilities	EVT_TOKENS	tk_rabrac	F978_8100	C4/ev978.c
+utilities	EVT_TOKENS	tk_dquote	F978_8101	C4/ev978.c
+utilities	EVT_TOKENS	tk_minus	F978_8102	C4/ev978.c
+utilities	EVT_TOKENS	eol	F978_8103	C4/ev978.c
+utilities	EVT_SCANNER	valid_start_condition	F979_8104	C4/ev979.c
+utilities	EVT_SCANNER	yy_build_tables	F979_8105	C4/ev979.c
+utilities	EVT_SCANNER	yy_execute_action	F979_8106	C4/ev979.c
+utilities	EVT_SCANNER	yy_execute_eof_action	F979_8107	C4/ev979.c
+utilities	EVT_SCANNER	yy_nxt_template	F979_8108	C4/ev979.c
+utilities	EVT_SCANNER	yy_chk_template	F979_8109	C4/ev979.c
+utilities	EVT_SCANNER	yy_base_template	F979_8110	C4/ev979.c
+utilities	EVT_SCANNER	yy_def_template	F979_8111	C4/ev979.c
+utilities	EVT_SCANNER	yy_ec_template	F979_8112	C4/ev979.c
+utilities	EVT_SCANNER	yy_meta_template	F979_8113	C4/ev979.c
+utilities	EVT_SCANNER	yy_accept_template	F979_8114	C4/ev979.c
+utilities	EVT_SCANNER	yyjam_base	F979_8115	C4/ev979.c
+utilities	EVT_SCANNER	yyjam_state	F979_8116	C4/ev979.c
+utilities	EVT_SCANNER	yytemplate_mark	F979_8117	C4/ev979.c
+utilities	EVT_SCANNER	yynull_equiv_class	F979_8118	C4/ev979.c
+utilities	EVT_SCANNER	yyreject_used	F979_8119	C4/ev979.c
+utilities	EVT_SCANNER	yyvariable_trail_context	F979_8120	C4/ev979.c
+utilities	EVT_SCANNER	yyreject_or_variable_trail_context	F979_8121	C4/ev979.c
+utilities	EVT_SCANNER	yynb_rules	F979_8122	C4/ev979.c
+utilities	EVT_SCANNER	yyend_of_buffer	F979_8123	C4/ev979.c
+utilities	EVT_SCANNER	yyline_used	F979_8124	C4/ev979.c
+utilities	EVT_SCANNER	yyposition_used	F979_8125	C4/ev979.c
+utilities	EVT_SCANNER	initial	F979_8126	C4/ev979.c
+utilities	EVT_SCANNER	make	F979_8127	C4/ev979.c
+utilities	EVT_SCANNER	reset	F979_8128	C4/ev979.c
+parse	YY_PARSER_SKELETON	make	F980_8129	C4/yy980.c
+parse	YY_PARSER_SKELETON	parse	F980_8130	C4/yy980.c
+parse	YY_PARSER_SKELETON	syntax_error	F980_8131	C4/yy980.c
+parse	YY_PARSER_SKELETON	is_suspended	F980_8132	C4/yy980.c
+parse	YY_PARSER_SKELETON	error_count	F980_8133	C4/yy980.c
+parse	YY_PARSER_SKELETON	accept	F980_8134	C4/yy980.c
+parse	YY_PARSER_SKELETON	abort	F980_8135	C4/yy980.c
+parse	YY_PARSER_SKELETON	clear_all	F980_8136	C4/yy980.c
+parse	YY_PARSER_SKELETON	clear_stacks	F980_8137	C4/yy980.c
+parse	YY_PARSER_SKELETON	suspend	F980_8138	C4/yy980.c
+parse	YY_PARSER_SKELETON	raise_error	F980_8139	C4/yy980.c
+parse	YY_PARSER_SKELETON	recover	F980_8140	C4/yy980.c
+parse	YY_PARSER_SKELETON	report_error	F980_8141	C4/yy980.c
+parse	YY_PARSER_SKELETON	report_eof_expected_error	F980_8142	C4/yy980.c
+parse	YY_PARSER_SKELETON	clear_token	F980_8143	C4/yy980.c
+parse	YY_PARSER_SKELETON	is_recovering	F980_8144	C4/yy980.c
+parse	YY_PARSER_SKELETON	is_expected_token	F980_8145	C4/yy980.c
+parse	YY_PARSER_SKELETON	expected_tokens	F980_8146	C4/yy980.c
+parse	YY_PARSER_SKELETON	yytranslate	F980_8147	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyr1	F980_8148	C4/yy980.c
+parse	YY_PARSER_SKELETON	yydefact	F980_8149	C4/yy980.c
+parse	YY_PARSER_SKELETON	yydefgoto	F980_8150	C4/yy980.c
+parse	YY_PARSER_SKELETON	yypact	F980_8151	C4/yy980.c
+parse	YY_PARSER_SKELETON	yypgoto	F980_8152	C4/yy980.c
+parse	YY_PARSER_SKELETON	yytable	F980_8153	C4/yy980.c
+parse	YY_PARSER_SKELETON	yycheck	F980_8154	C4/yy980.c
+parse	YY_PARSER_SKELETON	yytypes1	F980_8155	C4/yy980.c
+parse	YY_PARSER_SKELETON	yytypes2	F980_8156	C4/yy980.c
+parse	YY_PARSER_SKELETON	yy_suspended_yystacksize	F980_8157	C4/yy980.c
+parse	YY_PARSER_SKELETON	yy_suspended_yystate	F980_8158	C4/yy980.c
+parse	YY_PARSER_SKELETON	yy_suspended_yyn	F980_8159	C4/yy980.c
+parse	YY_PARSER_SKELETON	yy_suspended_yychar1	F980_8160	C4/yy980.c
+parse	YY_PARSER_SKELETON	yy_suspended_index	F980_8161	C4/yy980.c
+parse	YY_PARSER_SKELETON	yy_suspended_yyss_top	F980_8162	C4/yy980.c
+parse	YY_PARSER_SKELETON	yy_suspended_yy_goto	F980_8163	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyfixed_array	F980_8173	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyarray_subcopy	F980_8174	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyss	F980_8175	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyssp	F980_8176	C4/yy980.c
+parse	YY_PARSER_SKELETON	yy_lookahead_needed	F980_8177	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyerrstatus	F980_8178	C4/yy980.c
+parse	YY_PARSER_SKELETON	yy_parsing_status	F980_8179	C4/yy980.c
+parse	YY_PARSER_SKELETON	yy_clear_all	F980_8180	C4/yy980.c
+parse	YY_PARSER_SKELETON	yynewstate	F980_8182	C4/yy980.c
+parse	YY_PARSER_SKELETON	yydefault	F980_8183	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyreduce	F980_8184	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyerrlab	F980_8185	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyerrhandle	F980_8186	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyerrpop	F980_8187	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyaccepted	F980_8188	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyaborted	F980_8189	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyerror_raised	F980_8190	C4/yy980.c
+parse	YY_PARSER_SKELETON	yycontinue	F980_8191	C4/yy980.c
+parse	YY_PARSER_SKELETON	yysuspended	F980_8192	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyterror	F980_8193	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyeof	F980_8194	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyinitial_stack_size	F980_8201	C4/yy980.c
+parse	YY_PARSER_SKELETON	yyinitial_yyvs_size	F980_8202	C4/yy980.c
+parse	YY_PARSER_SKELETON	yydummy	F980_8203	C4/yy980.c
+utilities	EVT_TRACE_PARSER	yy_build_parser_tables	F981_8204	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yy_create_value_stacks	F981_8205	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yy_init_value_stacks	F981_8206	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yy_clear_value_stacks	F981_8207	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yy_push_last_value	F981_8208	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yy_push_error_value	F981_8209	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yy_pop_last_value	F981_8210	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yy_run_geyacc	F981_8211	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yy_do_action	F981_8212	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yy_do_error_action	F981_8213	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yytranslate_template	F981_8214	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyr1_template	F981_8215	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yytypes1_template	F981_8216	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yytypes2_template	F981_8217	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yydefact_template	F981_8218	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yydefgoto_template	F981_8219	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yypact_template	F981_8220	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yypgoto_template	F981_8221	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yytable_template	F981_8222	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yycheck_template	F981_8223	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvs1	F981_8224	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsc1	F981_8225	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsp1	F981_8226	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyspecial_routines1	F981_8227	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvs2	F981_8228	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsc2	F981_8229	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsp2	F981_8230	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyspecial_routines2	F981_8231	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvs3	F981_8232	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsc3	F981_8233	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsp3	F981_8234	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyspecial_routines3	F981_8235	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvs4	F981_8236	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsc4	F981_8237	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsp4	F981_8238	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyspecial_routines4	F981_8239	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvs5	F981_8240	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsc5	F981_8241	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsp5	F981_8242	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyspecial_routines5	F981_8243	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvs6	F981_8244	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsc6	F981_8245	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsp6	F981_8246	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyspecial_routines6	F981_8247	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvs7	F981_8248	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsc7	F981_8249	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsp7	F981_8250	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyspecial_routines7	F981_8251	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvs8	F981_8252	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsc8	F981_8253	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsp8	F981_8254	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyspecial_routines8	F981_8255	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvs9	F981_8256	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsc9	F981_8257	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsp9	F981_8258	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyspecial_routines9	F981_8259	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvs10	F981_8260	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsc10	F981_8261	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyvsp10	F981_8262	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyspecial_routines10	F981_8263	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyfinal	F981_8264	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyflag	F981_8265	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yyntbase	F981_8266	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yylast	F981_8267	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yymax_token	F981_8268	C4/ev981.c
+utilities	EVT_TRACE_PARSER	yynsyms	F981_8269	C4/ev981.c
+utilities	EVT_TRACE_PARSER	make	F981_8270	C4/ev981.c
+utilities	EVT_TRACE_PARSER	event_trace	F981_8271	C4/ev981.c
+utilities	EVT_TRACE_PARSER	last_error	F981_8272	C4/ev981.c
+utilities	EVT_TRACE_PARSER	report_error	F981_8273	C4/ev981.c
+utilities	EVT_TRACE_PARSER	parse_string	F981_8274	C4/ev981.c
+utilities	EVT_TRACE_PARSER	parse_file	F981_8275	C4/ev981.c
+kernel	KI_PATHNAME	is_canonical	F982_8279	C4/ki982.c
+kernel	KI_PATHNAME	trailing_items	F982_8284	C4/ki982.c
+kernel	KI_PATHNAME	same_pathname	F982_8287	C4/ki982.c
+kernel	KI_PATHNAME	same_case_insensitive	F982_8288	C4/ki982.c
+kernel	KI_PATHNAME	is_subpathname	F982_8289	C4/ki982.c
+kernel	KI_PATHNAME	is_case_insensitive_subpathname	F982_8290	C4/ki982.c
+kernel	KI_PATHNAME	is_equal	F982_8291	C4/ki982.c
+kernel	KL_PATHNAME	make	F983_8292	C4/kl983.c
+kernel	KL_PATHNAME	is_relative	F983_8293	C4/kl983.c
+kernel	KL_PATHNAME	is_current	F983_8294	C4/kl983.c
+kernel	KL_PATHNAME	is_parent	F983_8295	C4/kl983.c
+kernel	KL_PATHNAME	item	F983_8296	C4/kl983.c
+kernel	KL_PATHNAME	drive	F983_8297	C4/kl983.c
+kernel	KL_PATHNAME	hostname	F983_8298	C4/kl983.c
+kernel	KL_PATHNAME	sharename	F983_8299	C4/kl983.c
+kernel	KL_PATHNAME	count	F983_8300	C4/kl983.c
+kernel	KL_PATHNAME	set_relative	F983_8301	C4/kl983.c
+kernel	KL_PATHNAME	set_drive	F983_8302	C4/kl983.c
+kernel	KL_PATHNAME	set_hostname	F983_8303	C4/kl983.c
+kernel	KL_PATHNAME	set_sharename	F983_8304	C4/kl983.c
+kernel	KL_PATHNAME	append_name	F983_8305	C4/kl983.c
+kernel	KL_PATHNAME	append_names	F983_8306	C4/kl983.c
+kernel	KL_PATHNAME	append_current	F983_8307	C4/kl983.c
+kernel	KL_PATHNAME	append_parent	F983_8308	C4/kl983.c
+kernel	KL_PATHNAME	set_canonical	F983_8309	C4/kl983.c
+kernel	KL_PATHNAME	copy	F983_8310	C4/kl983.c
+kernel	KL_PATHNAME	components	F983_8311	C4/kl983.c
+kernel	KL_PATHNAME	initial_components_capacity	F983_8312	C4/kl983.c
+kernel	KL_PATHNAME	current_directory	F983_8313	C4/kl983.c
+kernel	KL_PATHNAME	parent_directory	F983_8314	C4/kl983.c
+kernel	UC_STRING	make	F984_8315	C4/uc984.c
+kernel	UC_STRING	make_from_string	F984_8316	C4/uc984.c
+kernel	UC_STRING	make_empty	F984_8317	C4/uc984.c
+kernel	UC_STRING	make_from_string_general	F984_8318	C4/uc984.c
+kernel	UC_STRING	make_from_substring	F984_8319	C4/uc984.c
+kernel	UC_STRING	make_from_substring_general	F984_8320	C4/uc984.c
+kernel	UC_STRING	make_filled_unicode	F984_8321	C4/uc984.c
+kernel	UC_STRING	make_filled_code	F984_8322	C4/uc984.c
+kernel	UC_STRING	make_filled	F984_8323	C4/uc984.c
+kernel	UC_STRING	make_from_utf8	F984_8324	C4/uc984.c
+kernel	UC_STRING	make_from_utf16	F984_8325	C4/uc984.c
+kernel	UC_STRING	make_from_utf16le	F984_8326	C4/uc984.c
+kernel	UC_STRING	make_from_utf16be	F984_8327	C4/uc984.c
+kernel	UC_STRING	unicode_item	F984_8328	C4/uc984.c
+kernel	UC_STRING	item_code	F984_8329	C4/uc984.c
+kernel	UC_STRING	item	F984_8330	C4/uc984.c
+kernel	UC_STRING	at	F984_8331	C4/uc984.c
+kernel	UC_STRING	substring	F984_8332	C4/uc984.c
+kernel	UC_STRING	unicode_substring_index	F984_8333	C4/uc984.c
+kernel	UC_STRING	substring_index	F984_8334	C4/uc984.c
+kernel	UC_STRING	string	F984_8335	C4/uc984.c
+kernel	UC_STRING	plus	F984_8336	C4/uc984.c
+kernel	UC_STRING	prefixed_string	F984_8337	C4/uc984.c
+kernel	UC_STRING	index_of_unicode	F984_8338	C4/uc984.c
+kernel	UC_STRING	index_of_item_code	F984_8339	C4/uc984.c
+kernel	UC_STRING	index_of	F984_8340	C4/uc984.c
+kernel	UC_STRING	hash_code	F984_8341	C4/uc984.c
+kernel	UC_STRING	new_empty_string	F984_8342	C4/uc984.c
+kernel	UC_STRING	unicode_occurrences	F984_8343	C4/uc984.c
+kernel	UC_STRING	code_occurrences	F984_8344	C4/uc984.c
+kernel	UC_STRING	occurrences	F984_8345	C4/uc984.c
+kernel	UC_STRING	count	F984_8346	C4/uc984.c
+kernel	UC_STRING	byte_count	F984_8347	C4/uc984.c
+kernel	UC_STRING	byte_capacity	F984_8348	C4/uc984.c
+kernel	UC_STRING	has_unicode	F984_8349	C4/uc984.c
+kernel	UC_STRING	has_item_code	F984_8350	C4/uc984.c
+kernel	UC_STRING	has	F984_8351	C4/uc984.c
+kernel	UC_STRING	has_unicode_substring	F984_8352	C4/uc984.c
+kernel	UC_STRING	has_substring	F984_8353	C4/uc984.c
+kernel	UC_STRING	is_empty	F984_8354	C4/uc984.c
+kernel	UC_STRING	is_ascii	F984_8355	C4/uc984.c
+kernel	UC_STRING	is_equal	F984_8356	C4/uc984.c
+kernel	UC_STRING	is_less	F984_8357	C4/uc984.c
+kernel	UC_STRING	same_string	F984_8358	C4/uc984.c
+kernel	UC_STRING	same_string_general	F984_8359	C4/uc984.c
+kernel	UC_STRING	same_unicode_string	F984_8360	C4/uc984.c
+kernel	UC_STRING	three_way_comparison	F984_8361	C4/uc984.c
+kernel	UC_STRING	three_way_unicode_comparison	F984_8362	C4/uc984.c
+kernel	UC_STRING	put_unicode	F984_8363	C4/uc984.c
+kernel	UC_STRING	put_item_code	F984_8364	C4/uc984.c
+kernel	UC_STRING	put	F984_8365	C4/uc984.c
+kernel	UC_STRING	prepend	F984_8366	C4/uc984.c
+kernel	UC_STRING	prepend_string	F984_8367	C4/uc984.c
+kernel	UC_STRING	append_string_general	F984_8368	C4/uc984.c
+kernel	UC_STRING	append_unicode_character	F984_8369	C4/uc984.c
+kernel	UC_STRING	append_item_code	F984_8370	C4/uc984.c
+kernel	UC_STRING	append_character	F984_8371	C4/uc984.c
+kernel	UC_STRING	append_string	F984_8372	C4/uc984.c
+kernel	UC_STRING	put_string	F984_8373	C4/uc984.c
+kernel	UC_STRING	append	F984_8374	C4/uc984.c
+kernel	UC_STRING	gobo_append_substring	F984_8375	C4/uc984.c
+kernel	UC_STRING	put_substring	F984_8376	C4/uc984.c
+kernel	UC_STRING	append_utf8	F984_8377	C4/uc984.c
+kernel	UC_STRING	append_utf16	F984_8378	C4/uc984.c
+kernel	UC_STRING	append_utf16be	F984_8379	C4/uc984.c
+kernel	UC_STRING	append_utf16le	F984_8380	C4/uc984.c
+kernel	UC_STRING	fill_with_unicode	F984_8381	C4/uc984.c
+kernel	UC_STRING	fill_with_code	F984_8382	C4/uc984.c
+kernel	UC_STRING	fill_with	F984_8383	C4/uc984.c
+kernel	UC_STRING	insert_unicode_character	F984_8384	C4/uc984.c
+kernel	UC_STRING	insert_code	F984_8385	C4/uc984.c
+kernel	UC_STRING	insert_character	F984_8386	C4/uc984.c
+kernel	UC_STRING	insert	F984_8387	C4/uc984.c
+kernel	UC_STRING	insert_string	F984_8388	C4/uc984.c
+kernel	UC_STRING	replace_substring	F984_8389	C4/uc984.c
+kernel	UC_STRING	replace_substring_by_string	F984_8390	C4/uc984.c
+kernel	UC_STRING	replace_substring_all	F984_8391	C4/uc984.c
+kernel	UC_STRING	keep_head	F984_8392	C4/uc984.c
+kernel	UC_STRING	keep_tail	F984_8393	C4/uc984.c
+kernel	UC_STRING	remove_head	F984_8394	C4/uc984.c
+kernel	UC_STRING	remove_tail	F984_8395	C4/uc984.c
+kernel	UC_STRING	remove	F984_8396	C4/uc984.c
+kernel	UC_STRING	remove_substring	F984_8397	C4/uc984.c
+kernel	UC_STRING	wipe_out	F984_8398	C4/uc984.c
+kernel	UC_STRING	copy	F984_8399	C4/uc984.c
+kernel	UC_STRING	cloned_string	F984_8400	C4/uc984.c
+kernel	UC_STRING	out	F984_8401	C4/uc984.c
+kernel	UC_STRING	debug_output	F984_8402	C4/uc984.c
+kernel	UC_STRING	as_lower	F984_8403	C4/uc984.c
+kernel	UC_STRING	as_upper	F984_8404	C4/uc984.c
+kernel	UC_STRING	to_lower	F984_8405	C4/uc984.c
+kernel	UC_STRING	to_upper	F984_8406	C4/uc984.c
+kernel	UC_STRING	to_utf8	F984_8407	C4/uc984.c
+kernel	UC_STRING	to_utf16_be	F984_8408	C4/uc984.c
+kernel	UC_STRING	to_utf16_le	F984_8409	C4/uc984.c
+kernel	UC_STRING	to_utf32_be	F984_8410	C4/uc984.c
+kernel	UC_STRING	to_utf32_le	F984_8411	C4/uc984.c
+kernel	UC_STRING	as_string	F984_8412	C4/uc984.c
+kernel	UC_STRING	name	F984_8413	C4/uc984.c
+kernel	UC_STRING	eol	F984_8414	C4/uc984.c
+kernel	UC_STRING	is_open_write	F984_8415	C4/uc984.c
+kernel	UC_STRING	flush	F984_8416	C4/uc984.c
+kernel	UC_STRING	item_code_at_byte_index	F984_8417	C4/uc984.c
+kernel	UC_STRING	character_item_at_byte_index	F984_8418	C4/uc984.c
+kernel	UC_STRING	next_byte_index	F984_8419	C4/uc984.c
+kernel	UC_STRING	shifted_byte_index	F984_8420	C4/uc984.c
+kernel	UC_STRING	byte_index	F984_8421	C4/uc984.c
+kernel	UC_STRING	is_encoded_first_byte	F984_8422	C4/uc984.c
+kernel	UC_STRING	last_byte_index_input	F984_8423	C4/uc984.c
+kernel	UC_STRING	last_byte_index_result	F984_8424	C4/uc984.c
+kernel	UC_STRING	reset_byte_index_cache	F984_8425	C4/uc984.c
+kernel	UC_STRING	current_string	F984_8426	C4/uc984.c
+kernel	UC_STRING	byte_item	F984_8427	C4/uc984.c
+kernel	UC_STRING	put_byte	F984_8428	C4/uc984.c
+kernel	UC_STRING	resize_byte_storage	F984_8429	C4/uc984.c
+kernel	UC_STRING	move_bytes_right	F984_8430	C4/uc984.c
+kernel	UC_STRING	move_bytes_left	F984_8431	C4/uc984.c
+kernel	UC_STRING	set_byte_count	F984_8432	C4/uc984.c
+kernel	UC_STRING	set_count	F984_8433	C4/uc984.c
+kernel	UC_STRING	put_code_at_byte_index	F984_8434	C4/uc984.c
+kernel	UC_STRING	put_character_at_byte_index	F984_8435	C4/uc984.c
+kernel	UC_STRING	put_substring_at_byte_index	F984_8436	C4/uc984.c
+kernel	UC_STRING	dummy_string	F984_8437	C4/uc984.c
+kernel	UC_STRING	dummy_uc_string	F984_8438	C4/uc984.c
+kernel	UC_STRING	old_wipe_out	F984_8439	C4/uc984.c
+kernel	UC_STRING	old_clear_all	F984_8440	C4/uc984.c
+kernel	UC_STRING	old_left_adjust	F984_8441	C4/uc984.c
+kernel	UC_STRING	old_right_adjust	F984_8442	C4/uc984.c
+kernel	UC_STRING	code	F984_8443	C4/uc984.c
+kernel	UC_STRING	index_of_code	F984_8444	C4/uc984.c
+kernel	UC_STRING	put_code	F984_8445	C4/uc984.c
+kernel	UC_STRING	append_code	F984_8446	C4/uc984.c
+kernel	UC_STRING	has_code	F984_8447	C4/uc984.c
