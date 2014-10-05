@@ -19,20 +19,20 @@ feature {NONE} -- Initialization
 	make
 		-- Initialization for `Current'.
 	local
-		m_access : MODEL_ACCESS
+		bank_access : BANK_ACCESS
 	do
 		Precursor
 		-- may also override the string 'initial_state'
-		model := m_access.m
+	bank := bank_access.bank
 	end
 
 feature -- queries
 
-	model : MODEL
+	bank : BANK
 
-	model_state : STRING
+	bank_state : STRING
 		do
-			Result := "  System state: " + model.out + "%N"
+			Result := "  System state: " + bank.out + "%N"
 		end
 
 	initial_state : STRING
@@ -51,7 +51,7 @@ feature -- Log to 'output'
 			if a_cmd.message.count = 0 then
 				output := output + l_command_name
 				-- also append model state to 'output'
-				output.append (model_state)
+				output.append (bank_state)
 			else
 				output := output + l_command_name + "  Error: " + a_cmd.message
 			end

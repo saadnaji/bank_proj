@@ -5,14 +5,20 @@ note
 	revision: "$Revision$"
 
 expanded class
-	MODEL_ACCESS
+      BANK_ACCESS
 
 feature
-	m: MODEL
+  bank : BANK
 		once
 			create Result.make
 		end
 
+ wipe_bank
+   do
+     bank.wipe
+   end
+
+
 invariant
-	m = m
+	bank = bank
 end

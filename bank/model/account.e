@@ -14,7 +14,7 @@ create
 feature -- make
 	make(a_name : STRING)
 	do
-		name := STRING
+		name := a_name
 	end
 
 feature -- account
@@ -24,21 +24,21 @@ feature -- account
 		do
 			balance := balance + amount
 		ensure
-			balance := old balance + amount
+			balance = old balance + amount
 		end
 	withdraw (amount : INTEGER)
 		require
-			balance - amont >= 0
+			balance - amount >= 0
 			amount >= 0
 		do
 			balance := balance - amount
 		ensure
-			balance := old balance - amount
+			balance = old balance - amount
 		end
 
 		out : STRING
 		do
-			result := ” ” + name + ”.” + ”balance: ” + balance.out
+			result := " " + name + "." + " balance: " + balance.out
 
 		end
 
